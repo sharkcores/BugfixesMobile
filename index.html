@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScriptCore/BugFixes - Mobile</title>
+    <title>ScriptCore/BugFixes</title>
     <link rel="stylesheet" href="C:\Users\Alex\Desktop\vs\ScriptCore.css">
 </head>
 <body>
@@ -80,24 +80,34 @@ backdrop-filter: blur(5px);
     user-select: none;
     
 }
-
+.SearchBtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.TypeBox2:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
 
 .Topbarrr{
-    background-color: black;
+    background-color:  rgb(29, 29, 29);
     z-index: 999;
     user-select: none;
     width: 100vw;
     position: fixed;
     margin-top: -8px;
+    box-shadow: 0px 0px 20px rgb(8, 8, 8);
+    border: 1px black solid;
+border-radius: none;
 }
 
-.Btn1{
+.Btn1, .Btn2{
     display: inline-block;
     border-style: none;
     border-radius: 5px;
     width: 100px;
     height: 40px;
-    background-color: black;
+    background-color:  rgb(29, 29, 29);
     font-size: larger;
     color: white;
     font-family: sans-serif;
@@ -106,7 +116,7 @@ transition: 0.3s;
 }
 
 .link{
-    color: black;
+    color: transparent;
 }
 
 .ToS{
@@ -136,6 +146,10 @@ background-color: rgb(20, 20, 20);
     font-size: larger;
     user-select: none;
 }
+.Btn2{
+    color:orangered
+}
+
     </style>
 <div class="Topbarrr">
     <a class="link" href="https://sharkcores.github.io/scriptcoreMobile/">
@@ -167,6 +181,7 @@ background-color: rgb(20, 20, 20);
 <a class="link" href="https://www.shark-core.com" target="_blank">
     <button class="Btn1">SharkCore</button>
 </a>
+
 </div>
 <p class="ToS"> <span class="ToSTitle">Bug fixes</span> <br> <br> <br> 20.08.2022 <br> <br> Taskbar bugs fixed <br> Background Image bug fixed <br> -------------------</p>
 </body>
